@@ -1,0 +1,114 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: red;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 4px dashed white;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid white;
+  padding: 5px 10px;
+}
+
+nav ul li a:hover {
+  background-color: white;
+  color: red;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+section h2 {
+  color: red;
+  border-left: 5px solid white;
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+
+.menu-item {
+  background-color: #1a1a1a;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-left: 5px solid red;
+  text-align: center;
+}
+
+.menu-item img {
+  width: 100%;
+  max-width: 200px;    /* ukuran gambar lebih kecil */
+  height: auto;
+  border: 2px solid red;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  background-color: #111;
+  padding: 20px;
+  border: 2px dashed red;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 8px;
+  background-color: #222;
+  color: white;
+  border: 1px solid red;
+  margin-top: 5px;
+}
+
+form button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: darkred;
+}
+
+footer {
+  background-color:
